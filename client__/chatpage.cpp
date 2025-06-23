@@ -40,7 +40,7 @@ void ChatPage::on_send_btn_clicked()
     //qDebug() << "test " ;
     auto pTextEdit = ui->chatEdit;
     ChatRole role = ChatRole::Self;
-    QString userName = QStringLiteral("恋恋风辰");
+    QString userName = QStringLiteral("moCpper");
     QString userIcon = ":/res/head_1.jpg";
 
     const QVector<MsgInfo>& msgList = pTextEdit->getMsgList();
